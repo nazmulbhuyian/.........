@@ -1,0 +1,34 @@
+export interface ISiteSettingInterface {
+  _id?: any;
+  logo?: string;
+  footer_logo?: string;
+  favicon?: string;
+  title?: string;
+  emergency_contact?: string;
+  email?: string;
+  address?: string;
+  start_close?: string;
+  delivery_time_inside_dhaka?: string;
+  delivery_time_outside_dhaka?: string;
+  delivery_condition?: string;
+  facebook?: string;
+  instagram?: string;
+  you_tube?: string;
+  watsapp?: string;
+  location?: string;
+  about_us?: string;
+  return_policy?: string;
+  refund_policy?: string;
+  cancellation_policy?: string;
+  privacy_policy?: string;
+  terms_condition?: string;
+  ssl_store_id?: string;
+  ssl_store_password?: string;
+  ssl_active?: true | false;
+  ssl_is_live?: true | false;
+  stripe_primary_key?: string;
+  stripe_secret_key?: string;
+  stripe_active?: true | false;
+  currency_symbol?: string;
+  currency_code?: string;
+}
